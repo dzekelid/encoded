@@ -25,7 +25,7 @@ apis:
   tags: Encoded
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/encoded/master/_listings/bitbucket/snippets-username-encoded-id-commits-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/encoded/master/_listings/bitbucket/snippets-username-encoded-id-commits-parameters.md
 x-common:
 - type: x-developer
   url: https://developer.atlassian.com/cloud/bitbucket/
