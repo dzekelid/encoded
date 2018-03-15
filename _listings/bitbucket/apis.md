@@ -10,8 +10,8 @@ tags:
 - Stack Network
 - Imports
 - Developers
-created: "2018-03-13"
-modified: "2018-03-13"
+created: "2018-03-15"
+modified: "2018-03-15"
 url: https://raw.githubusercontent.com/streamdata-gallery/encoded/master/_listings/bitbucket/apis.yaml
 specificationVersion: "0.14"
 apis:
@@ -25,7 +25,7 @@ apis:
   tags: Encoded
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/encoded/master/_listings/bitbucket/snippets-username-encoded-id-node-id-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/encoded/master/_listings/bitbucket/snippets-username-encoded-id-delete.md
 x-common:
 - type: x-developer
   url: https://developer.atlassian.com/cloud/bitbucket/
