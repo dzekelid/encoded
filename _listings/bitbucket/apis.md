@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitb
 x-kinRank: "8"
 x-alexaRank: "901"
 tags: Encoded
-created: "2018-06-18"
-modified: "2018-06-18"
+created: "2018-06-25"
+modified: "2018-06-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/encoded/master/_listings/bitbucket/apis.md
 specificationVersion: "0.14"
 apis:
