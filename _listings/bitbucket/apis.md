@@ -7,25 +7,26 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitb
 x-kinRank: "8"
 x-alexaRank: "901"
 tags: Encoded
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/encoded/master/_listings/bitbucket/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Bitbucket Delete Snippets Username Encoded
-  x-api-slug: bitbucket
+- name: Bitbucket - Delete Snippets Username Encoded
+  x-api-slug: snippetsusernameencoded-id-delete
   description: Deletes a snippet and returns an empty response.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
   humanURL: http://bitbucket.org
-  baseURL: https://api.bitbucket.org//2.0//snippets/{username}/{encoded_id}
-  tags: Snippets, Username, Encoded
+  baseURL: https://api.bitbucket.org//2.0
+  tags: Imports, Stack Network, Developers, Code, Technology, SaaS, Enterprise, Profiles,
+    Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/encoded/master/_listings/bitbucket/snippetsusernameencoded-id-delete-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/encoded/master/_listings/bitbucket/snippetsusernameencoded-id-delete-openapi.md
-- name: Bitbucket Get Snippets Username Encoded
-  x-api-slug: bitbucket
+- name: Bitbucket - Get Snippets Username Encoded
+  x-api-slug: snippetsusernameencoded-id-get
   description: |-
     Retrieves a single snippet.
 
@@ -213,27 +214,29 @@ apis:
         ------------------------------5957323a6b76--
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
   humanURL: http://bitbucket.org
-  baseURL: https://api.bitbucket.org//2.0//snippets/{username}/{encoded_id}
-  tags: Snippets, Username, Encoded
+  baseURL: https://api.bitbucket.org//2.0
+  tags: Imports, Stack Network, Developers, Code, Technology, SaaS, Enterprise, Profiles,
+    Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/encoded/master/_listings/bitbucket/snippetsusernameencoded-id-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/encoded/master/_listings/bitbucket/snippetsusernameencoded-id-get-openapi.md
-- name: Bitbucket Parameters Snippets Username Encoded
-  x-api-slug: bitbucket
+- name: Bitbucket - Parameters Snippets Username Encoded
+  x-api-slug: snippetsusernameencoded-id-parameters
   description: Parameters snippets username encoded
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
   humanURL: http://bitbucket.org
-  baseURL: https://api.bitbucket.org//2.0//snippets/{username}/{encoded_id}
-  tags: Snippets, Username, Encoded
+  baseURL: https://api.bitbucket.org//2.0
+  tags: Imports, Stack Network, Developers, Code, Technology, SaaS, Enterprise, Profiles,
+    Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/encoded/master/_listings/bitbucket/snippetsusernameencoded-id-parameters-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/encoded/master/_listings/bitbucket/snippetsusernameencoded-id-parameters-openapi.md
-- name: Bitbucket Update Snippets Username Encoded
-  x-api-slug: bitbucket
+- name: Bitbucket - Update Snippets Username Encoded
+  x-api-slug: snippetsusernameencoded-id-put
   description: |-
     Used to update a snippet. Use this to add and delete files and to
     change a snippet's title.
@@ -435,15 +438,16 @@ apis:
     convenience to the client.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
   humanURL: http://bitbucket.org
-  baseURL: https://api.bitbucket.org//2.0//snippets/{username}/{encoded_id}
-  tags: Snippets, Username, Encoded
+  baseURL: https://api.bitbucket.org//2.0
+  tags: Imports, Stack Network, Developers, Code, Technology, SaaS, Enterprise, Profiles,
+    Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/encoded/master/_listings/bitbucket/snippetsusernameencoded-id-put-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/encoded/master/_listings/bitbucket/snippetsusernameencoded-id-put-openapi.md
-- name: Bitbucket Get Snippets Username Encoded  Comments
-  x-api-slug: bitbucket
+- name: Bitbucket - Get Snippets Username Encoded  Comments
+  x-api-slug: snippetsusernameencoded-idcomments-get
   description: |-
     Used to retrieve a paginated list of all comments for a specific
     snippet.
@@ -454,27 +458,29 @@ apis:
     the `sort` query parameter.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
   humanURL: http://bitbucket.org
-  baseURL: https://api.bitbucket.org//2.0//snippets/{username}/{encoded_id}/comments
-  tags: Snippets, Username, Encoded, , Comments
+  baseURL: https://api.bitbucket.org//2.0
+  tags: Imports, Stack Network, Developers, Code, Technology, SaaS, Enterprise, Profiles,
+    Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/encoded/master/_listings/bitbucket/snippetsusernameencoded-idcomments-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/encoded/master/_listings/bitbucket/snippetsusernameencoded-idcomments-get-openapi.md
-- name: Bitbucket Parameters Snippets Username Encoded  Comments
-  x-api-slug: bitbucket
+- name: Bitbucket - Parameters Snippets Username Encoded  Comments
+  x-api-slug: snippetsusernameencoded-idcomments-parameters
   description: Parameters snippets username encoded  comments
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
   humanURL: http://bitbucket.org
-  baseURL: https://api.bitbucket.org//2.0//snippets/{username}/{encoded_id}/comments
-  tags: Snippets, Username, Encoded, , Comments
+  baseURL: https://api.bitbucket.org//2.0
+  tags: Imports, Stack Network, Developers, Code, Technology, SaaS, Enterprise, Profiles,
+    Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/encoded/master/_listings/bitbucket/snippetsusernameencoded-idcomments-parameters-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/encoded/master/_listings/bitbucket/snippetsusernameencoded-idcomments-parameters-openapi.md
-- name: Bitbucket Add Snippets Username Encoded  Comments
-  x-api-slug: bitbucket
+- name: Bitbucket - Add Snippets Username Encoded  Comments
+  x-api-slug: snippetsusernameencoded-idcomments-post
   description: |-
     Creates a new comment.
 
@@ -483,129 +489,139 @@ apis:
     To create a threaded reply to an existing comment, include `parent.id`.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
   humanURL: http://bitbucket.org
-  baseURL: https://api.bitbucket.org//2.0//snippets/{username}/{encoded_id}/comments
-  tags: Snippets, Username, Encoded, , Comments
+  baseURL: https://api.bitbucket.org//2.0
+  tags: Imports, Stack Network, Developers, Code, Technology, SaaS, Enterprise, Profiles,
+    Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/encoded/master/_listings/bitbucket/snippetsusernameencoded-idcomments-post-openapi.md
-- name: Bitbucket Delete Snippets Username Encoded  Comments Comment
-  x-api-slug: bitbucket
+- name: Bitbucket - Delete Snippets Username Encoded  Comments Comment
+  x-api-slug: snippetsusernameencoded-idcommentscomment-id-delete
   description: |-
     Deletes a snippet comment.
 
     Comments can only be removed by their author.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
   humanURL: http://bitbucket.org
-  baseURL: https://api.bitbucket.org//2.0//snippets/{username}/{encoded_id}/comments/{comment_id}
-  tags: Snippets, Username, Encoded, , Comments, Comment
+  baseURL: https://api.bitbucket.org//2.0
+  tags: Imports, Stack Network, Developers, Code, Technology, SaaS, Enterprise, Profiles,
+    Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/encoded/master/_listings/bitbucket/snippetsusernameencoded-idcommentscomment-id-delete-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/encoded/master/_listings/bitbucket/snippetsusernameencoded-idcommentscomment-id-delete-openapi.md
-- name: Bitbucket Get Snippets Username Encoded  Comments Comment
-  x-api-slug: bitbucket
+- name: Bitbucket - Get Snippets Username Encoded  Comments Comment
+  x-api-slug: snippetsusernameencoded-idcommentscomment-id-get
   description: Get snippets username encoded  comments comment
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
   humanURL: http://bitbucket.org
-  baseURL: https://api.bitbucket.org//2.0//snippets/{username}/{encoded_id}/comments/{comment_id}
-  tags: Snippets, Username, Encoded, , Comments, Comment
+  baseURL: https://api.bitbucket.org//2.0
+  tags: Imports, Stack Network, Developers, Code, Technology, SaaS, Enterprise, Profiles,
+    Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/encoded/master/_listings/bitbucket/snippetsusernameencoded-idcommentscomment-id-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/encoded/master/_listings/bitbucket/snippetsusernameencoded-idcommentscomment-id-get-openapi.md
-- name: Bitbucket Parameters Snippets Username Encoded  Comments Comment
-  x-api-slug: bitbucket
+- name: Bitbucket - Parameters Snippets Username Encoded  Comments Comment
+  x-api-slug: snippetsusernameencoded-idcommentscomment-id-parameters
   description: Parameters snippets username encoded  comments comment
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
   humanURL: http://bitbucket.org
-  baseURL: https://api.bitbucket.org//2.0//snippets/{username}/{encoded_id}/comments/{comment_id}
-  tags: Snippets, Username, Encoded, , Comments, Comment
+  baseURL: https://api.bitbucket.org//2.0
+  tags: Imports, Stack Network, Developers, Code, Technology, SaaS, Enterprise, Profiles,
+    Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/encoded/master/_listings/bitbucket/snippetsusernameencoded-idcommentscomment-id-parameters-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/encoded/master/_listings/bitbucket/snippetsusernameencoded-idcommentscomment-id-parameters-openapi.md
-- name: Bitbucket Update Snippets Username Encoded  Comments Comment
-  x-api-slug: bitbucket
+- name: Bitbucket - Update Snippets Username Encoded  Comments Comment
+  x-api-slug: snippetsusernameencoded-idcommentscomment-id-put
   description: |-
     Updates a comment.
 
     Comments can only be updated by their author.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
   humanURL: http://bitbucket.org
-  baseURL: https://api.bitbucket.org//2.0//snippets/{username}/{encoded_id}/comments/{comment_id}
-  tags: Snippets, Username, Encoded, , Comments, Comment
+  baseURL: https://api.bitbucket.org//2.0
+  tags: Imports, Stack Network, Developers, Code, Technology, SaaS, Enterprise, Profiles,
+    Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/encoded/master/_listings/bitbucket/snippetsusernameencoded-idcommentscomment-id-put-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/encoded/master/_listings/bitbucket/snippetsusernameencoded-idcommentscomment-id-put-openapi.md
-- name: Bitbucket Get Snippets Username Encoded  Commits
-  x-api-slug: bitbucket
+- name: Bitbucket - Get Snippets Username Encoded  Commits
+  x-api-slug: snippetsusernameencoded-idcommits-get
   description: Returns the changes (commits) made on this snippet.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
   humanURL: http://bitbucket.org
-  baseURL: https://api.bitbucket.org//2.0//snippets/{username}/{encoded_id}/commits
-  tags: Snippets, Username, Encoded, , Commits
+  baseURL: https://api.bitbucket.org//2.0
+  tags: Imports, Stack Network, Developers, Code, Technology, SaaS, Enterprise, Profiles,
+    Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/encoded/master/_listings/bitbucket/snippetsusernameencoded-idcommits-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/encoded/master/_listings/bitbucket/snippetsusernameencoded-idcommits-get-openapi.md
-- name: Bitbucket Parameters Snippets Username Encoded  Commits
-  x-api-slug: bitbucket
+- name: Bitbucket - Parameters Snippets Username Encoded  Commits
+  x-api-slug: snippetsusernameencoded-idcommits-parameters
   description: Parameters snippets username encoded  commits
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
   humanURL: http://bitbucket.org
-  baseURL: https://api.bitbucket.org//2.0//snippets/{username}/{encoded_id}/commits
-  tags: Snippets, Username, Encoded, , Commits
+  baseURL: https://api.bitbucket.org//2.0
+  tags: Imports, Stack Network, Developers, Code, Technology, SaaS, Enterprise, Profiles,
+    Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/encoded/master/_listings/bitbucket/snippetsusernameencoded-idcommits-parameters-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/encoded/master/_listings/bitbucket/snippetsusernameencoded-idcommits-parameters-openapi.md
-- name: Bitbucket Get Snippets Username Encoded  Commits Revision
-  x-api-slug: bitbucket
+- name: Bitbucket - Get Snippets Username Encoded  Commits Revision
+  x-api-slug: snippetsusernameencoded-idcommitsrevision-get
   description: Get snippets username encoded  commits revision
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
   humanURL: http://bitbucket.org
-  baseURL: https://api.bitbucket.org//2.0//snippets/{username}/{encoded_id}/commits/{revision}
-  tags: Snippets, Username, Encoded, , Commits, Revision
+  baseURL: https://api.bitbucket.org//2.0
+  tags: Imports, Stack Network, Developers, Code, Technology, SaaS, Enterprise, Profiles,
+    Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/encoded/master/_listings/bitbucket/snippetsusernameencoded-idcommitsrevision-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/encoded/master/_listings/bitbucket/snippetsusernameencoded-idcommitsrevision-get-openapi.md
-- name: Bitbucket Parameters Snippets Username Encoded  Commits Revision
-  x-api-slug: bitbucket
+- name: Bitbucket - Parameters Snippets Username Encoded  Commits Revision
+  x-api-slug: snippetsusernameencoded-idcommitsrevision-parameters
   description: Parameters snippets username encoded  commits revision
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
   humanURL: http://bitbucket.org
-  baseURL: https://api.bitbucket.org//2.0//snippets/{username}/{encoded_id}/commits/{revision}
-  tags: Snippets, Username, Encoded, , Commits, Revision
+  baseURL: https://api.bitbucket.org//2.0
+  tags: Imports, Stack Network, Developers, Code, Technology, SaaS, Enterprise, Profiles,
+    Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/encoded/master/_listings/bitbucket/snippetsusernameencoded-idcommitsrevision-parameters-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/encoded/master/_listings/bitbucket/snippetsusernameencoded-idcommitsrevision-parameters-openapi.md
-- name: Bitbucket Delete Snippets Username Encoded  Watch
-  x-api-slug: bitbucket
+- name: Bitbucket - Delete Snippets Username Encoded  Watch
+  x-api-slug: snippetsusernameencoded-idwatch-delete
   description: |-
     Used to stop watching a specific snippet. Returns 204 (No Content)
     to indicate success.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
   humanURL: http://bitbucket.org
-  baseURL: https://api.bitbucket.org//2.0//snippets/{username}/{encoded_id}/watch
-  tags: Snippets, Username, Encoded, , Watch
+  baseURL: https://api.bitbucket.org//2.0
+  tags: Imports, Stack Network, Developers, Code, Technology, SaaS, Enterprise, Profiles,
+    Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/encoded/master/_listings/bitbucket/snippetsusernameencoded-idwatch-delete-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/encoded/master/_listings/bitbucket/snippetsusernameencoded-idwatch-delete-openapi.md
-- name: Bitbucket Get Snippets Username Encoded  Watch
-  x-api-slug: bitbucket
+- name: Bitbucket - Get Snippets Username Encoded  Watch
+  x-api-slug: snippetsusernameencoded-idwatch-get
   description: |-
     Used to check if the current user is watching a specific snippet.
 
@@ -615,63 +631,68 @@ apis:
     Hitting this endpoint anonymously always returns a 404.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
   humanURL: http://bitbucket.org
-  baseURL: https://api.bitbucket.org//2.0//snippets/{username}/{encoded_id}/watch
-  tags: Snippets, Username, Encoded, , Watch
+  baseURL: https://api.bitbucket.org//2.0
+  tags: Imports, Stack Network, Developers, Code, Technology, SaaS, Enterprise, Profiles,
+    Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/encoded/master/_listings/bitbucket/snippetsusernameencoded-idwatch-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/encoded/master/_listings/bitbucket/snippetsusernameencoded-idwatch-get-openapi.md
-- name: Bitbucket Parameters Snippets Username Encoded  Watch
-  x-api-slug: bitbucket
+- name: Bitbucket - Parameters Snippets Username Encoded  Watch
+  x-api-slug: snippetsusernameencoded-idwatch-parameters
   description: Parameters snippets username encoded  watch
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
   humanURL: http://bitbucket.org
-  baseURL: https://api.bitbucket.org//2.0//snippets/{username}/{encoded_id}/watch
-  tags: Snippets, Username, Encoded, , Watch
+  baseURL: https://api.bitbucket.org//2.0
+  tags: Imports, Stack Network, Developers, Code, Technology, SaaS, Enterprise, Profiles,
+    Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/encoded/master/_listings/bitbucket/snippetsusernameencoded-idwatch-parameters-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/encoded/master/_listings/bitbucket/snippetsusernameencoded-idwatch-parameters-openapi.md
-- name: Bitbucket Update Snippets Username Encoded  Watch
-  x-api-slug: bitbucket
+- name: Bitbucket - Update Snippets Username Encoded  Watch
+  x-api-slug: snippetsusernameencoded-idwatch-put
   description: Used to start watching a specific snippet. Returns 204 (No Content).
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
   humanURL: http://bitbucket.org
-  baseURL: https://api.bitbucket.org//2.0//snippets/{username}/{encoded_id}/watch
-  tags: Snippets, Username, Encoded, , Watch
+  baseURL: https://api.bitbucket.org//2.0
+  tags: Imports, Stack Network, Developers, Code, Technology, SaaS, Enterprise, Profiles,
+    Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/encoded/master/_listings/bitbucket/snippetsusernameencoded-idwatch-put-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/encoded/master/_listings/bitbucket/snippetsusernameencoded-idwatch-put-openapi.md
-- name: Bitbucket Get Snippets Username Encoded  Watchers
-  x-api-slug: bitbucket
+- name: Bitbucket - Get Snippets Username Encoded  Watchers
+  x-api-slug: snippetsusernameencoded-idwatchers-get
   description: Returns a paginated list of all users watching a specific snippet.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
   humanURL: http://bitbucket.org
-  baseURL: https://api.bitbucket.org//2.0//snippets/{username}/{encoded_id}/watchers
-  tags: Snippets, Username, Encoded, , Watchers
+  baseURL: https://api.bitbucket.org//2.0
+  tags: Imports, Stack Network, Developers, Code, Technology, SaaS, Enterprise, Profiles,
+    Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/encoded/master/_listings/bitbucket/snippetsusernameencoded-idwatchers-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/encoded/master/_listings/bitbucket/snippetsusernameencoded-idwatchers-get-openapi.md
-- name: Bitbucket Parameters Snippets Username Encoded  Watchers
-  x-api-slug: bitbucket
+- name: Bitbucket - Parameters Snippets Username Encoded  Watchers
+  x-api-slug: snippetsusernameencoded-idwatchers-parameters
   description: Parameters snippets username encoded  watchers
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
   humanURL: http://bitbucket.org
-  baseURL: https://api.bitbucket.org//2.0//snippets/{username}/{encoded_id}/watchers
-  tags: Snippets, Username, Encoded, , Watchers
+  baseURL: https://api.bitbucket.org//2.0
+  tags: Imports, Stack Network, Developers, Code, Technology, SaaS, Enterprise, Profiles,
+    Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/encoded/master/_listings/bitbucket/snippetsusernameencoded-idwatchers-parameters-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/encoded/master/_listings/bitbucket/snippetsusernameencoded-idwatchers-parameters-openapi.md
-- name: Bitbucket Delete Snippets Username Encoded  Node
-  x-api-slug: bitbucket
+- name: Bitbucket - Delete Snippets Username Encoded  Node
+  x-api-slug: snippetsusernameencoded-idnode-id-delete
   description: |-
     Deletes the snippet.
 
@@ -683,15 +704,16 @@ apis:
     are being made to it, use `DELETE /snippets/{encoded_id}` instead.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
   humanURL: http://bitbucket.org
-  baseURL: https://api.bitbucket.org//2.0//snippets/{username}/{encoded_id}/{node_id}
-  tags: Snippets, Username, Encoded, , Node
+  baseURL: https://api.bitbucket.org//2.0
+  tags: Imports, Stack Network, Developers, Code, Technology, SaaS, Enterprise, Profiles,
+    Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/encoded/master/_listings/bitbucket/snippetsusernameencoded-idnode-id-delete-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/encoded/master/_listings/bitbucket/snippetsusernameencoded-idnode-id-delete-openapi.md
-- name: Bitbucket Get Snippets Username Encoded  Node
-  x-api-slug: bitbucket
+- name: Bitbucket - Get Snippets Username Encoded  Node
+  x-api-slug: snippetsusernameencoded-idnode-id-get
   description: |-
     Identical to `GET /snippets/encoded_id`, except that this endpoint
     can be used to retrieve the contents of the snippet as it was at an
@@ -704,27 +726,29 @@ apis:
     Other than that, the two endpoints are identical in behavior.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
   humanURL: http://bitbucket.org
-  baseURL: https://api.bitbucket.org//2.0//snippets/{username}/{encoded_id}/{node_id}
-  tags: Snippets, Username, Encoded, , Node
+  baseURL: https://api.bitbucket.org//2.0
+  tags: Imports, Stack Network, Developers, Code, Technology, SaaS, Enterprise, Profiles,
+    Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/encoded/master/_listings/bitbucket/snippetsusernameencoded-idnode-id-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/encoded/master/_listings/bitbucket/snippetsusernameencoded-idnode-id-get-openapi.md
-- name: Bitbucket Parameters Snippets Username Encoded  Node
-  x-api-slug: bitbucket
+- name: Bitbucket - Parameters Snippets Username Encoded  Node
+  x-api-slug: snippetsusernameencoded-idnode-id-parameters
   description: Parameters snippets username encoded  node
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
   humanURL: http://bitbucket.org
-  baseURL: https://api.bitbucket.org//2.0//snippets/{username}/{encoded_id}/{node_id}
-  tags: Snippets, Username, Encoded, , Node
+  baseURL: https://api.bitbucket.org//2.0
+  tags: Imports, Stack Network, Developers, Code, Technology, SaaS, Enterprise, Profiles,
+    Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/encoded/master/_listings/bitbucket/snippetsusernameencoded-idnode-id-parameters-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/encoded/master/_listings/bitbucket/snippetsusernameencoded-idnode-id-parameters-openapi.md
-- name: Bitbucket Update Snippets Username Encoded  Node
-  x-api-slug: bitbucket
+- name: Bitbucket - Update Snippets Username Encoded  Node
+  x-api-slug: snippetsusernameencoded-idnode-id-put
   description: |-
     Identical to `UPDATE /snippets/encoded_id`, except that this endpoint
     takes an explicit commit revision. Only the snippet's "HEAD"/"tip"
@@ -742,15 +766,16 @@ apis:
     Other than that, the two endpoints are identical in behavior.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
   humanURL: http://bitbucket.org
-  baseURL: https://api.bitbucket.org//2.0//snippets/{username}/{encoded_id}/{node_id}
-  tags: Snippets, Username, Encoded, , Node
+  baseURL: https://api.bitbucket.org//2.0
+  tags: Imports, Stack Network, Developers, Code, Technology, SaaS, Enterprise, Profiles,
+    Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/encoded/master/_listings/bitbucket/snippetsusernameencoded-idnode-id-put-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/encoded/master/_listings/bitbucket/snippetsusernameencoded-idnode-id-put-openapi.md
-- name: Bitbucket Get Snippets Username Encoded  Node  Files Path
-  x-api-slug: bitbucket
+- name: Bitbucket - Get Snippets Username Encoded  Node  Files Path
+  x-api-slug: snippetsusernameencoded-idnode-idfilespath-get
   description: |-
     Retrieves the raw contents of a specific file in the snippet. The
     `Content-Disposition` header will be "attachment" to avoid issues with
@@ -763,27 +788,29 @@ apis:
     the content type.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
   humanURL: http://bitbucket.org
-  baseURL: https://api.bitbucket.org//2.0//snippets/{username}/{encoded_id}/{node_id}/files/{path}
-  tags: Snippets, Username, Encoded, , Node, , Files, Path
+  baseURL: https://api.bitbucket.org//2.0
+  tags: Imports, Stack Network, Developers, Code, Technology, SaaS, Enterprise, Profiles,
+    Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/encoded/master/_listings/bitbucket/snippetsusernameencoded-idnode-idfilespath-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/encoded/master/_listings/bitbucket/snippetsusernameencoded-idnode-idfilespath-get-openapi.md
-- name: Bitbucket Parameters Snippets Username Encoded  Node  Files Path
-  x-api-slug: bitbucket
+- name: Bitbucket - Parameters Snippets Username Encoded  Node  Files Path
+  x-api-slug: snippetsusernameencoded-idnode-idfilespath-parameters
   description: Parameters snippets username encoded  node  files path
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
   humanURL: http://bitbucket.org
-  baseURL: https://api.bitbucket.org//2.0//snippets/{username}/{encoded_id}/{node_id}/files/{path}
-  tags: Snippets, Username, Encoded, , Node, , Files, Path
+  baseURL: https://api.bitbucket.org//2.0
+  tags: Imports, Stack Network, Developers, Code, Technology, SaaS, Enterprise, Profiles,
+    Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/encoded/master/_listings/bitbucket/snippetsusernameencoded-idnode-idfilespath-parameters-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/encoded/master/_listings/bitbucket/snippetsusernameencoded-idnode-idfilespath-parameters-openapi.md
-- name: Bitbucket Get Snippets Username Encoded  Revision Diff
-  x-api-slug: bitbucket
+- name: Bitbucket - Get Snippets Username Encoded  Revision Diff
+  x-api-slug: snippetsusernameencoded-idrevisiondiff-get
   description: |-
     Returns the diff of the specified commit against its first parent.
 
@@ -806,27 +833,29 @@ apis:
     Bitbucket to reliably determine this.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
   humanURL: http://bitbucket.org
-  baseURL: https://api.bitbucket.org//2.0//snippets/{username}/{encoded_id}/{revision}/diff
-  tags: Snippets, Username, Encoded, , Revision, Diff
+  baseURL: https://api.bitbucket.org//2.0
+  tags: Imports, Stack Network, Developers, Code, Technology, SaaS, Enterprise, Profiles,
+    Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/encoded/master/_listings/bitbucket/snippetsusernameencoded-idrevisiondiff-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/encoded/master/_listings/bitbucket/snippetsusernameencoded-idrevisiondiff-get-openapi.md
-- name: Bitbucket Parameters Snippets Username Encoded  Revision Diff
-  x-api-slug: bitbucket
+- name: Bitbucket - Parameters Snippets Username Encoded  Revision Diff
+  x-api-slug: snippetsusernameencoded-idrevisiondiff-parameters
   description: Parameters snippets username encoded  revision diff
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
   humanURL: http://bitbucket.org
-  baseURL: https://api.bitbucket.org//2.0//snippets/{username}/{encoded_id}/{revision}/diff
-  tags: Snippets, Username, Encoded, , Revision, Diff
+  baseURL: https://api.bitbucket.org//2.0
+  tags: Imports, Stack Network, Developers, Code, Technology, SaaS, Enterprise, Profiles,
+    Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/encoded/master/_listings/bitbucket/snippetsusernameencoded-idrevisiondiff-parameters-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/encoded/master/_listings/bitbucket/snippetsusernameencoded-idrevisiondiff-parameters-openapi.md
-- name: Bitbucket Get Snippets Username Encoded  Revision Patch
-  x-api-slug: bitbucket
+- name: Bitbucket - Get Snippets Username Encoded  Revision Patch
+  x-api-slug: snippetsusernameencoded-idrevisionpatch-get
   description: |-
     Returns the patch of the specified commit against its first
     parent.
@@ -850,37 +879,32 @@ apis:
     Bitbucket to reliably determine this.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
   humanURL: http://bitbucket.org
-  baseURL: https://api.bitbucket.org//2.0//snippets/{username}/{encoded_id}/{revision}/patch
-  tags: Snippets, Username, Encoded, , Revision, Patch
+  baseURL: https://api.bitbucket.org//2.0
+  tags: Imports, Stack Network, Developers, Code, Technology, SaaS, Enterprise, Profiles,
+    Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/encoded/master/_listings/bitbucket/snippetsusernameencoded-idrevisionpatch-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/encoded/master/_listings/bitbucket/snippetsusernameencoded-idrevisionpatch-get-openapi.md
-- name: Bitbucket Parameters Snippets Username Encoded  Revision Patch
-  x-api-slug: bitbucket
+- name: Bitbucket - Parameters Snippets Username Encoded  Revision Patch
+  x-api-slug: snippetsusernameencoded-idrevisionpatch-parameters
   description: Parameters snippets username encoded  revision patch
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
   humanURL: http://bitbucket.org
-  baseURL: https://api.bitbucket.org//2.0//snippets/{username}/{encoded_id}/{revision}/patch
-  tags: Snippets, Username, Encoded, , Revision, Patch
+  baseURL: https://api.bitbucket.org//2.0
+  tags: Imports, Stack Network, Developers, Code, Technology, SaaS, Enterprise, Profiles,
+    Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/encoded/master/_listings/bitbucket/snippetsusernameencoded-idrevisionpatch-parameters-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/encoded/master/_listings/bitbucket/snippetsusernameencoded-idrevisionpatch-parameters-openapi.md
-- name: Bitbucket
-  x-api-slug: bitbucket
-  description: Collaborate on code with inline comments and pull requests. Manage
-    and share your Git repositories to build and ship software, as a team.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
-  humanURL: http://bitbucket.org
-  baseURL: https://api.bitbucket.org//2.0
-  tags: Encoded
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/encoded/master/_listings/bitbucket/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://bigoven.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://bitbucket.stack.network
 - type: x-crunchbase
   url: https://crunchbase.com/organization/bitbucket
 - type: x-developer
